@@ -1,0 +1,15 @@
+{
+  "name": "mongo_test",
+  "version": "0.0.1",
+  "description": "Mongo concurrency bug test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yury Michurin <yury@nix.co.il>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "mongodb": "^2.0.39"
+  }
+}
