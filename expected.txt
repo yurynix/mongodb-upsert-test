@@ -1,0 +1,26 @@
+Setting up collection a_test on mongodb://.../sf?authMechanism=SCRAM-SHA-1
+Running test
+Running test
+Running test
+Running test
+Running test
+Running test
+Running test
+Running test
+Test done on pid 10196
+worker 10196 exited
+Test done on pid 2084
+worker 2084 exited
+Test done on pid 12176
+worker 12176 exited
+Test done on pid 4748
+worker 4748 exited
+Test done on pid 7000
+Test done on pid 8648
+worker 7000 exited
+worker 8648 exited
+Test done on pid 8304
+worker 8304 exited
+Test done on pid 6764
+worker 6764 exited
+Bye Bye.
