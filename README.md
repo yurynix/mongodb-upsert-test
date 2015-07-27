@@ -5,6 +5,21 @@ something else.
 
 That program runs successfully on mongodb 3.0.4 with mmapv1 engine, but throws E11000 errors on wiredtiger.
 
+## Install and run:
+install:
+```
+git clone https://github.com/yurynix/mongodb-upsert-test.git
+cd mongodb-upsert-test
+npm install
+```
+before running, edit index.js and modify your CONNECTION_STRING.
+
+then run:
+```
+node index.js
+```
+
+
 
 ## Expected result:
 ```
