@@ -1,9 +1,18 @@
 # Mongodb 3.0.4 upsert test, fails with wiredtiger
-This test basicly adds some documents that has random sid 1..100,
-and then updates the hit counter on them. Sometime, a time changes status field from 'active' to 
-something else.
+https://jira.mongodb.org/browse/SERVER-19600
 
-That program runs successfully on mongodb 3.0.4 with mmapv1 engine, but throws E11000 errors on wiredtiger.
+The test basically upserting documents that has random sid 1..100, and then update the hit counter on them.
+So the document looks like that:
+```
+{ 
+	'sid': 23, 
+	'status': 'active',
+	 'hit': 12 
+}
+```
+A timer changes the status field from 'active' to something else occasionally.
+
+That program runs successfully on mongodb 3.0.4 with MMAPv1 engine, but throws E11000 errors with wiredtiger.
 
 ## Install and run:
 install:
